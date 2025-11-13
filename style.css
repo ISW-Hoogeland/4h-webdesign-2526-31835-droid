@@ -1,5 +1,9 @@
 :root {
-  
+ --kleur-zwart: #000000;
+ --kleur-wit: #FFFFFF;
+ --kleur-rood: #FF0000;
+ --kleur-groen: #69DA13;
+ --kleur-geel: #FFEC1E;
 }
 
 
@@ -9,15 +13,21 @@ body{
   "header logo" 
   "main nav"
   "footer footer";
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 120px 800px 60px;
 }
 header{grid-area: header;
+  background-color: var(--kleur-groen);
 }
 nav{grid-area: nav;
+  background-color: var(--kleur-geel);
 }
 main{grid-area: main;
-  width: 1200px;
+ 
+  background-color: var(--kleur-zwart)
 }
 footer{grid-area: footer;
+  background-color: var(--kleur-rood);
 }
 
 nav ul {
