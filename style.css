@@ -24,8 +24,8 @@ nav{grid-area: nav;
 }
 main{grid-area: main;
  background-color: var(--kleur-wit);
- display: grid; margin :5%;
- grid-template-columns:repeat(3, 1fr);
+ display: grid; padding :3%;
+ grid-template-columns:repeat(3, 1fr); column-gap: 10px;
 }
 footer{grid-area: footer;
   background-color: var(--kleur-rood);
