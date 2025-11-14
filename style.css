@@ -10,7 +10,7 @@
 body{
   display:grid;
   grid-template-areas:
-  "header logo" 
+  "header header" 
   "main nav"
   "footer footer";
   grid-template-columns: 6fr 1fr;
@@ -23,12 +23,17 @@ nav{grid-area: nav;
   background-color: var(--kleur-geel);
 }
 main{grid-area: main;
- 
-  background-color: var(--kleur-zwart)
+ background-color: var(--kleur-wit);
+ display: grid; margin :5%;
+ grid-template-columns:repeat(3, 1fr);
 }
 footer{grid-area: footer;
   background-color: var(--kleur-rood);
 }
+
+
+
+
 
 nav ul {
   list-style: square;
