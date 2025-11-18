@@ -18,6 +18,7 @@ body{
 }
 header{grid-area: header;
   background-color: var(--kleur-groen);
+  img {float: right;}
 }
 nav{grid-area: nav;
   background-color: var(--kleur-geel);
